@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f2edf2;
+}
+
+.card {
+  display: inline-block;
+  color: #fff;
+  max-width: 400px;
+  width: 100%;
+  min-width: 150px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 1.5em;
+  overflow: hidden;
+  position: relative;
+}
+
+.card>:nth-child(2) {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.card-header {
+  width: 100%;
+}
+
+.card-header>*{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-header>:last-child {
+  position: absolute;
+  right: 25px;
+}
+
+.price {
+  font-size: 2em;
+}
+
+.circle-top, .circle-bottom {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+.circle-top {
+  top: -25px;
+  right: -70px;
+}
+
+.circle-bottom {
+  top: 100px;
+  right: -15px;
+}
+
+.grad-red {
+  background: linear-gradient(to right, #f6be9b, #fb7e9a);
+}
+
+.grad-blue {
+  background: linear-gradient(to right, #87c9f8, #1a7bc3);
+}
+
+.grad-green {
+  background: linear-gradient(to right, #81d5cf, #03cfbd);
+}
